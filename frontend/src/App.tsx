@@ -484,7 +484,7 @@ if (sessionStart.current > 0) {
 
   try {
     const response = await fetch(
-      "http://127.0.0.1:8000/analyze-session",
+      "https://ai-communication-coach-api.onrender.com/analyze-session",
       {
         method: "POST",
         headers: {

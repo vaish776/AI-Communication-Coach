@@ -12,7 +12,7 @@ app = FastAPI(
 # Allow the React frontend to communicate with this backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173", "https://ai-communication-coach.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
